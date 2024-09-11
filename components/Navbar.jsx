@@ -44,7 +44,7 @@ const Navbar = () => {
   className="text-white md:text-[10px] lg:text-[15px] text-[8px]"
   >pp{"\u00A0\u00A0\u00A0\u00A0"}</span>G<span
   className="text-white md:text-[10px] lg:text-[15px] text-[8px]"
-  >ame{"\u00A0\u00A0\u00A0\u00A0"}</span>
+  >raphics{"\u00A0\u00A0\u00A0\u00A0"}</span>
   </h2>
   </Link>
   <motion.div
