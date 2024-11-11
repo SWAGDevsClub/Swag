@@ -9,4 +9,4 @@ function Hackfusion() {
   )
 }
 
-export default Hackfusion
+export default Hackfusion;

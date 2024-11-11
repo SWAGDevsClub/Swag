@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import styles from "../../styles";
 import { TypingText, TitleText } from "../../components";
 import { fadeIn, staggerContainer } from "../../utils/motion";
+import Link from "next/link";
 
 const Events = () => {
   return (
@@ -17,14 +18,14 @@ const Events = () => {
             className="max-h-[100px] max-w-[100px]p-2 m-2 rounded-md drop-shadow-lg object-contain self-center"
           />
           {/* <TitleText title={<>📄 Register Now!</>} textStyles="text-center text-[30px] text-red-500" />  */}
-            <div className="glassmorphism2 p-2 m-4 flex flex-col rounded-md">
+            {/* <div className="glassmorphism2 p-2 m-4 flex flex-col rounded-md">
             <span className="font-bold m-1 text-center self-center text-secondary-white p-2 w-[80%] opacity-80">
             Click below to register!
             </span>
             <a href="https://forms.gle/aGsxEreQSNFpYp8E7" target="_blank" className="bg-red-700 font-bold rounded-md text-white p-2 self-center hover:bg-purple-500 m-4">
             Register Now
           </a>
-          </div>
+          </div> */}
           {/* <TitleText title={<>WebVerse 2023</>} textStyles="text-center text-red-500" /> */}
           <br/>
           <h1 className="underline text-2xl font-bold text-secondary-white text-center">
@@ -47,9 +48,9 @@ const Events = () => {
  
             </motion.p>
             <ul className="text-white mx-10 my-5">
-              <li className="p-3">
+              {/* <li className="p-3">
               - What are the teams going to achieve?
-              </li>
+              </li> */}
               <li className="p-3">
               - Development of leadership qualities and teamwork along with project management skills<br/> that will act as a base for your future projects.
               </li>
@@ -60,10 +61,10 @@ const Events = () => {
               - Exciting prizes and certificates after completion and for participation.
               </li>
               <li className="p-3">
-              - Top 3 teams will be given a chance to appear for the interview for direct recruitment in SWAG.
+              - Top 3 teams got a chance to appear for the interview for direct recruitment in SWAG.
               </li>
               <li className="p-3">
-              - Teams will be awarded on the basis of how interactive and responsive their website is,<br/> and how effectively it fulfills the user’s expectations.
+              - Teams awarded on the basis of how interactive and responsive their website is,<br/> and how effectively it fulfills the user’s expectations.
               </li>
             </ul>
             <br/>
@@ -85,7 +86,7 @@ const Events = () => {
           Certificate of Participation
           </span>
           <span className="font-bold mb-3 underline self-center text-secondary-white text-center">
-          participants will get the certificate
+          participants got the certificate
           </span>
             </div>
             </div>
@@ -154,7 +155,33 @@ const Events = () => {
           </a>
             </div>
             <br/>
-            <TitleText title={<>📄 Register Now!</>} textStyles="text-center text-[30px] text-red-500" /> 
+            <div
+            className="flex lg:flex-row flex-col m-10 "
+          >
+ <span className="font-extrabold font-bold text-white p-3 mb-2 text-center text-4xl">WINNERS OF WEBVERSE</span>
+            <motion.img
+              // variants={fade("up", "tween", 0.3, 
+              src="/images/team1.jpg"
+              alt="arrow down"
+              className="max-h-[500px] max-w-[400px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+            />
+            <motion.img
+              // variants={fadeIn("up", "tween", 0.3, 1)}
+              src="/images/team2.jpg"
+              alt="arrow down"
+              className="max-h-[500px] max-w-[400px] p-2 m-2 rounded-md drop-shadow-lg object-contain "
+            />
+            <motion.img
+              // variants={fadeIn("up", "tween", 0.3, 1)}
+              src="/images/team3.jpg"
+              alt="arrow down"
+              className="max-h-[500px] max-w-[400px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+            />
+            
+
+          </div>
+
+            {/* <TitleText title={<>📄 Register Now!</>} textStyles="text-center text-[30px] text-red-500" /> 
             <div className="glassmorphism2 p-2 m-4 flex flex-col rounded-md">
             <span className="font-bold m-1 text-center self-center text-secondary-white p-2 w-[80%] opacity-80">
             Click below to register
@@ -162,7 +189,7 @@ const Events = () => {
             <a href="https://forms.gle/aGsxEreQSNFpYp8E7" target="_blank" className="bg-red-700 font-bold rounded-md text-white p-2 self-center hover:bg-purple-500 m-4">
             Register Now
           </a>
-          </div>
+          </div> */}
           {/* <TitleText title={<>📺 Watch Workshop!</>} textStyles="text-center text-[30px] text-red-500" />  */}
             {/* <div className="glassmorphism2 p-2 m-4 flex flex-col rounded-md">
             <span className="font-bold m-1 text-center self-center text-secondary-white p-2 w-[80%] opacity-80">

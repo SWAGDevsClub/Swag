@@ -19,9 +19,9 @@ const AboutUs = () => {
         >
           <TypingText title="| Welcome to our club!" />
           <img
-            src="/ab1.jpg"
+            src="/aab1.jpeg"
             alt="author"
-            className="p-2 m-2 rounded-md drop-shadow-lg opacity-80 object-contain "
+            className="p-2 m-2 rounded-md drop-shadow-lg opacity-80 object-contain  "
           />
 
           <motion.p
@@ -44,21 +44,21 @@ const AboutUs = () => {
 
             <motion.img
               // variants={fade("up", "tween", 0.3, 1)}
-              src="/ab2.jpg"
+              src="/image1.jpeg"
               alt="arrow down"
               className="max-h-[500px] max-w-[400px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
             />
             <motion.img
               // variants={fadeIn("up", "tween", 0.3, 1)}
-              src="/ab3.jpg"
+              src="/image2.jpeg"
               alt="arrow down"
               className="max-h-[500px] max-w-[380px] p-2 m-2 rounded-md drop-shadow-lg object-contain "
             />
             <motion.img
               // variants={fadeIn("up", "tween", 0.3, 1)}
-              src="/ab4.jpg"
+              src="/image3.jpeg"
               alt="arrow down"
-              className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+              className="max-h-[500px] max-w-[360px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
             />
 
           </div>
@@ -96,46 +96,59 @@ const AboutUs = () => {
               className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
               <motion.img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
-                src="/a1.jpg"
+                src="/aa1.jpeg"
                 alt="arrow down"
                 className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
-                Gajanan Palepwad
+                Jaykumar Gupta
               </span>
               <br />
               <span className="font-bold mb-3 underline self-center text-secondary-white">
                 President
-                &
-                App Coordinator
               </span>
             </div>
             <div
               className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
               <motion.img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
-                src="/a2.jpg"
+                src="/aa8.jpeg"
                 alt="arrow down"
                 className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
-                Sushil Bhoybar
+               Vikramaditya Khupse
               </span>
               <br />
               <span className="font-bold mb-3 underline self-center text-secondary-white">
-                Event Coordinator
+               App Coordinator
               </span>
             </div>
             <div
               className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
               <motion.img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
-                src="/a3.jpg"
+                src="/aa3.jpeg"
                 alt="arrow down"
                 className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
-                Yuvraj Darshankar
+               Krishna Jadahav              </span>
+              <br />
+              <span className="font-bold mb-3 underline self-center text-secondary-white">
+                Web Coordinator
+              </span>
+            </div>
+            <div
+              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
+              <motion.img
+                // variants={fadeIn("up", "tween", 0.3, 1)}
+                src="/aa5.jpeg"
+                alt="arrow down"
+                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+              />
+              <span className="font-bold text-white my-2 underline self-center">
+              Vaibhavi Aghaw
               </span>
               <br />
               <span className="font-bold mb-3 underline self-center text-secondary-white">
@@ -146,28 +159,60 @@ const AboutUs = () => {
               className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
               <motion.img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
-                src="/a7.jpg"
+                src="/aa6.jpeg"
                 alt="arrow down"
                 className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
-                Anjali Biradar
+               Mohit Kumare
               </span>
               <br />
               <span className="font-bold mb-3 underline self-center text-secondary-white">
-                Web Coordinator
+              Media Coordinator
               </span>
             </div>
             <div
               className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
               <motion.img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
-                src="/a4.jpg"
+                src="/aa9.jpg"
                 alt="arrow down"
                 className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
-                Sanika Narwade
+                Saiprasad Togalwar
+              </span>
+              <br />
+              <span className="font-bold mb-3 underline self-center text-secondary-white">
+                Event Coordinator
+              </span>
+            </div>
+            <div
+              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
+              <motion.img
+                // variants={fadeIn("up", "tween", 0.3, 1)}
+                src="/aa10.jpg"
+                alt="arrow down"
+                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+              />
+              <span className="font-bold text-white my-2 underline self-center">
+                Asmi Shetty
+              </span>
+              <br />
+              <span className="font-bold mb-3 underline self-center text-secondary-white">
+                Anchoring Coordinator
+              </span>
+            </div>
+            <div
+              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
+              <motion.img
+                // variants={fadeIn("up", "tween", 0.3, 1)}
+                src="/aa7.png"
+                alt="arrow down"
+                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+              />
+              <span className="font-bold text-white my-2 underline self-center">
+                Adnan Khan
               </span>
               <br />
               <span className="font-bold mb-3 underline self-center text-secondary-white">
@@ -178,32 +223,16 @@ const AboutUs = () => {
               className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
               <motion.img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
-                src="/a5.jpg"
+                src="/aa4.jpeg"
                 alt="arrow down"
                 className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
-                Shreyansh Rajput
+                Maheshwari Lakde
               </span>
               <br />
               <span className="font-bold mb-3 underline self-center text-secondary-white">
-                Media Coordinator
-              </span>
-            </div>
-            <div
-              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
-              <motion.img
-                // variants={fadeIn("up", "tween", 0.3, 1)}
-                src="/a6.jpg"
-                alt="arrow down"
-                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
-              />
-              <span className="font-bold text-white my-2 underline self-center">
-                Yashomati Bawane
-              </span>
-              <br />
-              <span className="font-bold mb-3 underline self-center text-secondary-white">
-                Magzine Coordinator
+                Finance Coordinator
               </span>
             </div>
           </div>
@@ -221,7 +250,7 @@ const AboutUs = () => {
           <TypingText title="| Our Team" />
           <br />
           <img
-            src="/feed.jpg"
+            src="/feed1.jpg"
             alt="author"
             className="p-2 m-2 rounded-md drop-shadow-lg opacity-80 object-contain "
           />

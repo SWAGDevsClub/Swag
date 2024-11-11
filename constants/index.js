@@ -6,8 +6,8 @@ export const data = [
   },
   {
     id: 'game',
-    imgUrl: '/game.jpg',
-    title: 'Go To Roadmap of game',
+    imgUrl: '/graphics.png',
+    title: 'Go To Roadmap of graphics',
   },
   {
     id: 'app',
