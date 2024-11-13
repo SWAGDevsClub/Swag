@@ -11,7 +11,7 @@ import { newFeatures } from '../../constants';import { NewFeatures } from '../..
 
 const Projects = () => {
   return (
-    <section className=" overflow-scroll">
+    <section className=" overflow-hidden">
       <div className="relative h-[2500px]">
         <motion.div  className="relative h-[1800px] w-[100%] top-0 opacity-1">
     
@@ -61,20 +61,20 @@ const Projects = () => {
         <motion.div>
             <div className="absolute lg:text-7xl  text-5xl text-yellow-100 lg:top-[-620px] md:top-[-820px] sm:top-[-620px] top-[-780px] md-right-60 right-20 md-left-60 left-20 cursor-pointer text-center font-semibold">CURRENT WORKING ON..</div>
         </motion.div>
-        <motion.div className="flex justify-center items-center border-0 content-center xl:mt-[-760px] lg:mt-[-860px] md:mt-[-1200px] sm:mt-[-930px] mt-[-1290px]">
+        <motion.div className="flex justify-center items-center border-0 p-4 content-center xl:mt-[-760px] lg:mt-[-860px] md:mt-[-1200px] sm:mt-[-930px] mt-[-1290px]">
         <motion.div className="w-[25%] h-[300px] ">
-            <div className="absolute p-2 sm:w-[25%] w-[70%] xl:h-[300px] lg:h-[360px] md:h-[470px] sm:h-[370px]  lg:text-[15px]  md:text-[15px] text-[10px] text-white border-white border-4 rounded-2xl shadow-[0_25px_50px_-12px_rgba(5,5,5,5.3)] cursor-pointer text-center xl:mt-[30px] lg:mt-[200px] md:mt-[200px] sm:mt-[200px] mt-[400px]">
+            <div className="absolute p-2 sm:w-[25%] w-[70%] xl:h-[270px] lg:h-[360px] md:h-[470px] sm:h-[370px]  lg:text-[15px]  md:text-[15px] text-[10px] text-white border-white border-4 rounded-2xl shadow-[0_25px_50px_-12px_rgba(5,5,5,5.3)] cursor-pointer text-center xl:mt-[30px] lg:mt-[200px] md:mt-[200px] sm:mt-[200px] mt-[400px]">
               <h1 className="text-2xl p-3 text-center text-yellow-200">Doctors Appointment</h1>
               A web for doctors to handle their appointments at different locations. Projects consists of an admin panel for doctors showing all details about appointment patient has and a special page for patients to register their appointment according to that doctor's speciality, location, available time slots,etc</div>
           </motion.div>
           <motion.div className="w-[25%] h-[300px] ml-10 ">
-            <div className="absolute p-2 sm:w-[25%] w-[70%] xl:h-[300px] lg:h-[360px] md:h-[470px] sm:h-[370px]  lg:text-[15px]  md:text-[15px] text-[10px] text-white sm:ml-[0] ml-[-25%] border-white border-4 rounded-2xl shadow-[0_25px_50px_-12px_rgba(5,5,5,5.3)] cursor-pointer text-center  xl:mt-[30px] lg:mt-[200px] md:mt-[200px] sm:mt-[200px] mt-[650px]">
+            <div className="absolute p-2 sm:w-[25%] w-[70%] xl:h-[270px] lg:h-[360px] md:h-[470px] sm:h-[370px]  lg:text-[15px]  md:text-[15px] text-[10px] text-white sm:ml-[0] ml-[-25%] border-white border-4 rounded-2xl shadow-[0_25px_50px_-12px_rgba(5,5,5,5.3)] cursor-pointer text-center  xl:mt-[30px] lg:mt-[200px] md:mt-[200px] sm:mt-[200px] mt-[650px]">
             <h1 className="text-2xl p-3 text-center text-yellow-200">SWAG Exam App</h1>
             A personalized and secure app for a club to conduct MCQ-based exams enables students to take exams online in a user-friendly and controlled environment. Students log in securely, ensuring only authorized users can access the platform. The app updates the student's scores in a secure database</div>
           </motion.div>
           
           <motion.div className="w-[25%] md:h-[300px] h-0 ml-10">
-            <div className="absolute p-2 sm:w-[25%] w-[70%] xl:h-[300px] lg:h-[360px] md:h-[470px] sm:h-[370px] lg:text-[15px]  md:text-[15px] text-[10px] text-white  border-white border-4 rounded-2xl sm:ml-[0] ml-[-50%] shadow-[0_25px_50px_-12px_rgba(5,5,5,5.3)] cursor-pointer text-center  xl:mt-[30px] lg:mt-[200px] md:mt-[200px] sm:mt-[50px] mt-[730px]">
+            <div className="absolute p-2 sm:w-[25%] w-[70%] xl:h-[270px] lg:h-[360px] md:h-[470px] sm:h-[370px] lg:text-[15px]  md:text-[15px] text-[10px] text-white  border-white border-4 rounded-2xl sm:ml-[0] ml-[-50%] shadow-[0_25px_50px_-12px_rgba(5,5,5,5.3)] cursor-pointer text-center  xl:mt-[30px] lg:mt-[200px] md:mt-[200px] sm:mt-[50px] mt-[730px]">
             <h1 className="text-2xl p-3 text-center text-yellow-200">ID Card Web</h1>
             A web application in Python using the Flask framework to generate ID cards for students at SGGSIE&T college by entering their registration number. The application would retrieve student data from a database, render the ID card and allow the user to either convert it to a PDF or print it directly.</div>
           </motion.div>

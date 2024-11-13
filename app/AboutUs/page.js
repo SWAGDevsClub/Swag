@@ -21,7 +21,7 @@ const AboutUs = () => {
           <img
             src="/aab1.jpeg"
             alt="author"
-            className="p-2 m-2 rounded-md drop-shadow-lg opacity-80 object-contain  "
+            className="p-2 m-2 rounded-md drop-shadow-lg opacity-80 object-contain w-10/12"
           />
 
           <motion.p
@@ -52,13 +52,13 @@ const AboutUs = () => {
               // variants={fadeIn("up", "tween", 0.3, 1)}
               src="/image2.jpeg"
               alt="arrow down"
-              className="max-h-[500px] max-w-[380px] p-2 m-2 rounded-md drop-shadow-lg object-contain "
+              className="max-h-[500px] max-w-[400px] p-2 m-2 rounded-md drop-shadow-lg object-contain "
             />
             <motion.img
               // variants={fadeIn("up", "tween", 0.3, 1)}
               src="/image3.jpeg"
               alt="arrow down"
-              className="max-h-[500px] max-w-[360px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+              className="max-h-[500px] max-w-[400px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
             />
 
           </div>
@@ -90,7 +90,7 @@ const AboutUs = () => {
             OUR TECHTUTORS
           </h3>
           <div
-            className="flex lg:flex-row flex-col m-10 flex-wrap"
+            className="grid grid-cols-3 gap-4 p-2"
           >
             <div
               className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
@@ -109,7 +109,7 @@ const AboutUs = () => {
               </span>
             </div>
             <div
-              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
+              className=" glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
               <motion.img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa8.jpeg"
@@ -125,7 +125,7 @@ const AboutUs = () => {
               </span>
             </div>
             <div
-              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
+              className=" glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
               <motion.img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa3.jpeg"

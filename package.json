@@ -9,12 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
     "axios": "^1.6.2",
     "bootstrap": "^5.3.3",
     "eslint-config-next": "13.0.3",
     "firebase": "^10.7.1",
-    "framer-motion": "^7.6.7",
-    "next": "13.0.3",
+    "framer-motion": "^7.10.3",
+    "next": "^13.0.3",
     "php": "^1.1.0",
     "react": "18.2.0",
     "react-bootstrap": "^2.10.5",

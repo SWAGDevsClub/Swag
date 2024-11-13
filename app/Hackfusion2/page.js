@@ -7,7 +7,7 @@ import { fadeIn, staggerContainer } from "../../utils/motion";
 
 const Projects = () => {
   return (<section className={`${styles.paddings} relative z-10`}>
-    <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
+    <div className={`${styles.innerWidth} mx-auto flex flex-col min-h-screen`}>
       <TypingText title="| HACFKFUSION 2.O" textStyles="text-center" />
       <TitleText title={<>Coming Soon!</>} textStyles="text-center" />
     </div>
