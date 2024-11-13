@@ -98,7 +98,7 @@ const AboutUs = () => {
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa1.jpeg"
                 alt="arrow down"
-                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+                className="max-h-[500px] max-w-[450px] p-1 m-3 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                 Jaykumar Gupta
@@ -114,7 +114,7 @@ const AboutUs = () => {
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa8.jpeg"
                 alt="arrow down"
-                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+                className="max-h-[340px] max-w-[450px] p-1 m-5 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                Vikramaditya Khupse
@@ -130,7 +130,7 @@ const AboutUs = () => {
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa3.jpeg"
                 alt="arrow down"
-                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+                className="max-h-[340px] max-w-[470px] p-1 m-5 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                Krishna Jadahav              </span>
@@ -145,7 +145,7 @@ const AboutUs = () => {
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa5.jpeg"
                 alt="arrow down"
-                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+                className="max-h-[350px] max-w-[320px] p-1 m-4 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
               Vaibhavi Aghaw
@@ -161,7 +161,7 @@ const AboutUs = () => {
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa6.jpeg"
                 alt="arrow down"
-                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+                className="max-h-[350px] max-w-[320px] p-1 m-2 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                Mohit Kumare
@@ -177,7 +177,7 @@ const AboutUs = () => {
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa9.jpg"
                 alt="arrow down"
-                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+                className="max-h-[350px] max-w-[320px] p-1 m-3 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                 Saiprasad Togalwar
@@ -193,7 +193,7 @@ const AboutUs = () => {
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa10.jpg"
                 alt="arrow down"
-                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+                className="max-h-[350px] max-w-[320px] p-1 m-3 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                 Asmi Shetty
@@ -209,7 +209,7 @@ const AboutUs = () => {
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa7.png"
                 alt="arrow down"
-                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+                className="max-h-[350px] max-w-[320px] p-1 m-4 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                 Adnan Khan
@@ -225,7 +225,7 @@ const AboutUs = () => {
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa4.jpeg"
                 alt="arrow down"
-                className="max-h-[500px] max-w-[320px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
+                className="max-h-[350px] max-w-[320px] p-1 m-4 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                 Maheshwari Lakde
