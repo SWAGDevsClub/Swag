@@ -98,7 +98,7 @@ const AboutUs = () => {
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa1.jpeg"
                 alt="arrow down"
-                className="max-h-[500px] max-w-[450px] p-1 m-3 rounded-md drop-shadow-lg object-contain"
+                className="max-h-[500px] max-w-[450px] p-2 m-3 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                 Jaykumar Gupta
@@ -114,7 +114,7 @@ const AboutUs = () => {
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa8.jpeg"
                 alt="arrow down"
-                className="max-h-[340px] max-w-[450px] p-1 m-5 rounded-md drop-shadow-lg object-contain"
+                className="max-h-[340px] max-w-[450px] p-0 m-5 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                Vikramaditya Khupse
@@ -130,7 +130,7 @@ const AboutUs = () => {
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa3.jpeg"
                 alt="arrow down"
-                className="max-h-[340px] max-w-[470px] p-1 m-5 rounded-md drop-shadow-lg object-contain"
+                className="max-h-[340px] max-w-[470px] p-0 m-5 rounded-md drop-shadow-lg object-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                Krishna Jadahav              </span>
