@@ -1,0 +1,83 @@
+#project-section{
+    scrollbar-width: none;
+}
+@media (max-width:500px) {
+    #project-1{
+        margin-left: 5.5% !important;
+        height: 200px !important;
+    }
+    #project-2{
+        height: 200px !important;
+    }
+    #project-3{
+        margin-left: -55% !important;
+        height: 200px !important;
+    }
+    #project-1>p,#project-2>p,#project-3>p{
+        font-size: 12px;
+    }
+}
+@media (max-width:430px) {
+    #current-head{
+        margin-left: -11%;
+        font-size: 35px;
+        width: 350px !important;
+    }
+
+    #project-1{
+        margin-top: 70% !important;
+        margin-left: 5.7% !important;
+        height: 220px !important;
+    }
+    #project-2{
+        height: 220px !important;
+        margin-top: 130.5% !important;
+    }
+    #project-3{
+        margin-left: -56.5% !important;
+        height: 220px !important;
+        margin-top: 155% !important;
+    }
+    #project-1>p,#project-2>p,#project-3>p{
+        font-size: 10px;
+    }
+}
+@media (max-width:415px) {
+    #current-head{
+        margin-left: -13%;
+        font-size: 30px;
+        width: 350px !important;
+    }
+    #project-1{
+        margin-top: 80% !important;
+        margin-left: 9% !important;
+    }
+    #project-2{
+        margin-left: -22.5% !important;
+        margin-top: 140.5% !important;
+    }
+    #project-3{
+        margin-left: -54% !important;
+        margin-top: 165% !important;
+    }
+}
+@media (max-width:380px) {
+    #current-head{
+        margin-left: -15.5%;
+        font-size: 30px;
+        width: 350px !important;
+    }
+    #project-1{
+        margin-top: 80% !important;
+        margin-left: 8.5% !important;
+    }
+    #project-2{
+
+        margin-top: 150% !important;
+        margin-left: -23% !important;
+    }
+    #project-3{
+        margin-top: 180% !important;
+        margin-left: -55% !important;
+    }
+}

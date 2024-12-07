@@ -1,9 +1,9 @@
 "use client";
-import { Footer, Navbar } from "../../components";
 import { motion } from "framer-motion";
 import styles from "../../styles";
 import { TypingText } from "../../components";
 import { fadeIn, staggerContainer } from "../../utils/motion";
+import "./AboutUS.css"
 const AboutUs = () => {
   return (
     <>
@@ -42,19 +42,19 @@ const AboutUs = () => {
             className="flex lg:flex-row flex-col m-10 "
           >
 
-            <motion.img
+            <img
               // variants={fade("up", "tween", 0.3, 1)}
               src="/image1.jpeg"
               alt="arrow down"
               className="max-h-[500px] max-w-[400px] p-2 m-2 rounded-md drop-shadow-lg object-contain"
             />
-            <motion.img
+            <img
               // variants={fadeIn("up", "tween", 0.3, 1)}
               src="/image2.jpeg"
               alt="arrow down"
               className="max-h-[500px] max-w-[400px] p-2 m-2 rounded-md drop-shadow-lg object-contain "
             />
-            <motion.img
+            <img
               // variants={fadeIn("up", "tween", 0.3, 1)}
               src="/image3.jpeg"
               alt="arrow down"
@@ -90,15 +90,16 @@ const AboutUs = () => {
             OUR TECHTUTORS
           </h3>
           <div
-            className="grid grid-cols-3 gap-4 p-2"
+            className="flex flex-row justify-center w-[100%] flex-wrap"
+            id="team"
           >
             <div
-              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
-              <motion.img
+              className="glassmorphism m-10 rounded-md flex justify-center flex-col items-center xl:w-[25%] lg:w-[40%] md:w[50%] sm:w-[70%]">
+              <img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa1.jpeg"
                 alt="arrow down"
-                className="max-h-[500px] max-w-[450px] p-2 m-3 rounded-md drop-shadow-lg object-contain"
+                className="lg:h-[370px] w-[300px]  m-2  rounded-md drop-shadow-lg  object-fit-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                 Jaykumar Gupta
@@ -109,12 +110,12 @@ const AboutUs = () => {
               </span>
             </div>
             <div
-              className=" glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
-              <motion.img
+              className=" glassmorphism m-10 rounded-md flex justify-center flex-col items-center xl:w-[25%] lg:w-[40%] md:w[50%] sm:w-[70%]">
+              <img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa8.jpeg"
                 alt="arrow down"
-                className="max-h-[340px] max-w-[450px] p-0 m-5 rounded-md drop-shadow-lg object-contain"
+                className="h-[350px] w-[300px] m-2 rounded-md drop-shadow-lg  object-fit-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                Vikramaditya Khupse
@@ -125,12 +126,12 @@ const AboutUs = () => {
               </span>
             </div>
             <div
-              className=" glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
-              <motion.img
+              className=" glassmorphism m-10 rounded-md flex justify-center flex-col items-center xl:w-[25%] lg:w-[40%] md:w[50%] sm:w-[70%]">
+              <img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa3.jpeg"
                 alt="arrow down"
-                className="max-h-[340px] max-w-[470px] p-0 m-5 rounded-md drop-shadow-lg object-contain"
+                className="h-[350px] w-[300px] m-2 rounded-md drop-shadow-lg  object-fit-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                Krishna Jadahav              </span>
@@ -140,12 +141,12 @@ const AboutUs = () => {
               </span>
             </div>
             <div
-              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
-              <motion.img
+              className="glassmorphism m-10 rounded-md flex justify-center flex-col items-center xl:w-[25%] lg:w-[40%] md:w[50%] sm:w-[70%]">
+              <img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa5.jpeg"
                 alt="arrow down"
-                className="max-h-[350px] max-w-[320px] p-1 m-4 rounded-md drop-shadow-lg object-contain"
+                className="h-[350px] w-[300px] m-2 rounded-md drop-shadow-lg  object-fit-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
               Vaibhavi Aghaw
@@ -156,12 +157,12 @@ const AboutUs = () => {
               </span>
             </div>
             <div
-              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
-              <motion.img
+              className="glassmorphism m-10 rounded-md flex justify-center flex-col items-center xl:w-[25%] lg:w-[40%] md:w[50%] sm:w-[70%]">
+              <img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa6.jpeg"
                 alt="arrow down"
-                className="max-h-[350px] max-w-[320px] p-1 m-2 rounded-md drop-shadow-lg object-contain"
+                className="h-[350px] w-[300px] m-2 rounded-md drop-shadow-lg  object-fit-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                Mohit Kumare
@@ -172,12 +173,12 @@ const AboutUs = () => {
               </span>
             </div>
             <div
-              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
-              <motion.img
+              className="glassmorphism m-10 rounded-md flex justify-center flex-col items-center xl:w-[25%] lg:w-[40%] md:w[50%] sm:w-[70%]">
+              <img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa9.jpg"
                 alt="arrow down"
-                className="max-h-[350px] max-w-[320px] p-1 m-3 rounded-md drop-shadow-lg object-contain"
+                className="h-[350px] w-[300px] m-2 rounded-md drop-shadow-lg  object-fit-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                 Saiprasad Togalwar
@@ -188,12 +189,12 @@ const AboutUs = () => {
               </span>
             </div>
             <div
-              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
-              <motion.img
+              className="glassmorphism m-10 rounded-md flex justify-center flex-col items-center xl:w-[25%] lg:w-[40%] md:w[50%] sm:w-[70%]">
+              <img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa10.jpg"
                 alt="arrow down"
-                className="max-h-[350px] max-w-[320px] p-1 m-3 rounded-md drop-shadow-lg object-contain"
+                className="h-[350px] w-[300px] m-2 rounded-md drop-shadow-lg  object-fit-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                 Asmi Shetty
@@ -204,12 +205,12 @@ const AboutUs = () => {
               </span>
             </div>
             <div
-              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
-              <motion.img
+              className="glassmorphism m-10 rounded-md flex justify-center flex-col items-center xl:w-[25%] lg:w-[40%] md:w[50%] sm:w-[70%]">
+              <img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa7.png"
                 alt="arrow down"
-                className="max-h-[350px] max-w-[320px] p-1 m-4 rounded-md drop-shadow-lg object-contain"
+                className="h-[350px] w-[300px] m-2 rounded-md drop-shadow-lg  object-fit-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                 Adnan Khan
@@ -220,12 +221,12 @@ const AboutUs = () => {
               </span>
             </div>
             <div
-              className="glassmorphism rounded-md flex justify-center flex-col align-middle m-5">
-              <motion.img
+              className="glassmorphism m-10 rounded-md flex justify-center flex-col items-center xl:w-[25%] lg:w-[40%] md:w[50%] sm:w-[70%]">
+              <img
                 // variants={fadeIn("up", "tween", 0.3, 1)}
                 src="/aa4.jpeg"
                 alt="arrow down"
-                className="max-h-[350px] max-w-[320px] p-1 m-4 rounded-md drop-shadow-lg object-contain"
+                className="h-[350px] w-[300px] m-2 rounded-md drop-shadow-lg  object-fit-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
                 Maheshwari Lakde

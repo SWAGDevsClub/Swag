@@ -1,0 +1,21 @@
+
+
+@media (max-width:769px) {
+    #team>div{
+        width: 325px;
+    }
+    #team>div>img{
+        width: 300px;
+        aspect-ratio: 3/3 ;
+    }
+}
+@media (max-width:426px) {
+    #team>div>img{  
+        
+        aspect-ratio: 3/3;
+        width: 300px;
+        padding-left: 2%;
+        padding-right: 2%;
+
+    }
+}
