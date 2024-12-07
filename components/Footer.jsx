@@ -49,8 +49,9 @@ const Footer = () => (
           </p>
 
           <div className="flex gap-4">
-            {socials.map((social) => (
+            {socials.map((social,i) => (
               <a
+              key={i}
               href={social.u}
               target="_blank"
               >
