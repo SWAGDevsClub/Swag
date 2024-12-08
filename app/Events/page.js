@@ -9,7 +9,7 @@ const Events = () => {
       <section className="h-[140vh] flex flex-col  gap-4  items-center " id="event-sec" >
       {/* Second Event Section */}
       <div className="gradient-04 z-0" />
-      <div className="w-full flex flex-col justify-center items-center gap-4 h-[550px] xl:w-[1200px] lg:w-[900px]  md:w-[600px] sm:w-[400px]  border-5 rounded-3xl shadow-2xl  mt-[5%]">
+      <div className="w-full flex flex-col justify-center items-center gap-4 h-[550px] xl:w-[1200px] lg:w-[900px]  md:w-[600px] sm:w-[400px]  border-4 rounded-3xl shadow-2xl  mt-[5%]">
           <Link href="/Hackfusion" className="flex justify-center">
             <img className="w-[60%] mt-[-25%] lg:mt-[-20%]" src="/hackfusionlogo.png" />
           </Link>
@@ -37,7 +37,7 @@ const Events = () => {
         
 
         {/* First Event Section */}
-        <div className="w-full flex flex-col justify-center items-center gap-4 h-[550px] xl:w-[1200px] lg:w-[900px] gap-5 md:w-[600px] sm:w-[400px]  border-5 rounded-3xl shadow-2xl  mt-[5%]">
+        <div className="w-full flex flex-col justify-center items-center gap-4 h-[550px] xl:w-[1200px] lg:w-[900px] gap-5 md:w-[600px] sm:w-[400px]  border-4 rounded-3xl shadow-2xl  mt-[5%]">
           <Link href="/Webverse" className="flex justify-center">
             <img className="w-[60%] md:w-[50%] sm:w-[70%]" src="/e1.png" />
           </Link>
