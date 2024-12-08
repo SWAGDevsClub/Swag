@@ -10,6 +10,12 @@
     }
 }
 @media (max-width:426px) {
+    .nav-main{
+        gap:8% ;
+    }
+    .img-gallary>img{
+        width:350px;
+    }
     #team>div>img{  
         
         aspect-ratio: 3/3;

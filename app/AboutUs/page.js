@@ -39,7 +39,7 @@ const AboutUs = () => {
           <br />
           <TypingText title="| Image Gallery" />
           <div
-            className="flex lg:flex-row flex-col m-10 "
+            className="flex lg:flex-row flex-col m-10 img-gallary "
           >
 
             <img

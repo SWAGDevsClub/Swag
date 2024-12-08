@@ -5,6 +5,7 @@ import styles from "../styles";
 import { useState } from "react";
 import Model from "./Model";
 import Link from "next/link";
+import "../app/AboutUs/AboutUS.css"
 const Navbar = () => {
 
   const [modelOpen, setModelOpen] = useState(false)
@@ -26,7 +27,7 @@ const Navbar = () => {
           className="absolute inset-0 w-[50%] gradient-01"
         />
         <div className={`${styles.innerWidth} mx-auto flex justify-between
-  gap-8`}>
+  gap-8 nav-main`}>
 
           <img
             src="/sggs.svg"
