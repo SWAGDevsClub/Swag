@@ -1,6 +1,9 @@
 #project-section{
     scrollbar-width: none;
 }
+Link,a{
+    text-decoration: none;
+}
 @media (max-width:500px) {
     #project-1{
         margin-left: 5.5% !important;

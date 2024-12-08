@@ -34,7 +34,7 @@ const Navbar = () => {
             alt="search"
             className=" sm:w-[75px] w-[60px] sm:h-[75px] h-[60px] object-contain hover:cursor-pointer fill-white shadow"
           />
-          <Link href="/" className="cursor-pointer z-20 bg-transparent">
+          <Link href="/" className="cursor-pointer z-20 bg-transparent no-underline">
             <h2 className="font-extrabold md:text-[40px] lg:text-[55px] text-[30px] leading-[25px]
   text-white hover:cursor-pointer mt-[20px]">S<span
                 className="text-white md:text-[10px] lg:text-[15px] text-[8px]"

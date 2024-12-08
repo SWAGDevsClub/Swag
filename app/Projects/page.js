@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-
+import Link from "next/link";
 import { TypingText, TitleText } from "../../components";
 import MyCarousel from './carousel';
 import Carousell from './carousel2';
@@ -13,14 +13,14 @@ const Projects = () => {
       <div className="relative h-[2500px]">
         <motion.div  className="relative h-[1800px] w-[100%] top-0 opacity-1">
     
-          <a href="" className="absolute lg:text-9xl  sm:text-7xl text-6xl text-white top-16  md-right-60 right-16 md-left-60 sm:left-12 left-9 cursor-pointer text-center">OUR PROJECTS</a>
+          <Link href="" className="absolute lg:text-9xl  sm:text-7xl text-6xl text-white top-16  md-right-60 right-16 md-left-60 sm:left-12 left-9 cursor-pointer text-center">OUR PROJECTS</Link>
         </motion.div>
         
         <div>
           <img
             className=" absolute md-right-60 sm:ml-[15%] ml-[5%] lg:h-[680px] md:h-[660px] sm:h-[620px] h-[620px] sm:w-[70%] w-[90%] xl:mt-[-1500px] lg:mt-[-1450px] md:mt-[-1600px] mt-[-1550px] border-8 rounded-3xl shadow-2xl border-white  opacity-30 border-opacity-70 " />
           <motion.div>
-            <a href="https://play.google.com/store/apps/details?id=com.sggs.sggs" className="absolute lg:text-7xl  text-5xl text-white xl:top-[350px] lg:top-[400px] md:top-[250px] sm:top-[290px] top-[280px]  md-right-60 right-20 md-left-60 left-20 cursor-pointer text-center font-semibold">SGGS APP</a>
+            <Link href="https://play.google.com/store/apps/details?id=com.sggs.sggs" className="absolute lg:text-7xl  text-5xl text-white xl:top-[350px] lg:top-[400px] md:top-[250px] sm:top-[290px] top-[280px]  md-right-60 right-20 md-left-60 left-20 cursor-pointer text-center font-semibold">SGGS APP</Link>
           </motion.div>
 
           <TypingText title=" Android App for College Information System" textStyles="md:text-[25px] lg:text-[30px] sm:text-[17px] text-[15px] absolute text-2xl text-white xl:top-[430px] lg:top-[480px] md:top-[300px] top-[370px] xl:ml-[35%] lg:ml-[22%] md:ml-[15%] sm:ml-[30%] ml-[13%] text-center " className="type-text"/>
@@ -46,7 +46,7 @@ const Projects = () => {
           <img
             className=" absolute top-[-50px] md-right-60 sm:ml-[15%] ml-[5%] lg:h-[620px] md:h-[600px] sm:h-[590px] h-[620px] sm:w-[70%] w-[90%] lg:mt-[-1325px] md:mt-[-1525px] sm:mt-[-1325px] mt-[-1420px] border-8 rounded-3xl shadow-2xl border-white  opacity-30 border-opacity-70 "  />
           <motion.div>
-            <a href="https://play.google.com/store/apps/details?id=com.sggs.sggs" className="absolute lg:text-7xl  text-5xl text-white lg:top-[-1320px] md:top-[-1520px] sm:top-[-1320px] top-[-1420px]  md-right-60 right-20 md-left-60 left-20 cursor-pointer text-center font-semibold">DAILY BITES</a>
+            <Link href="https://play.google.com/store/apps/details?id=com.sggs.sggs" className="absolute lg:text-7xl  text-5xl text-white lg:top-[-1320px] md:top-[-1520px] sm:top-[-1320px] top-[-1420px]  md-right-60 right-20 md-left-60 left-20 cursor-pointer text-center font-semibold">DAILY BITES</Link>
           
           </motion.div>
           <TypingText title=" Monthly Food Subscription" textStyles="md:text-[25px] lg:text-[30px] sm:text-[17px] text-[15px] absolute text-2xl text-white lg:top-[-1230px] md:top-[-1440px] sm:top-[-1240px] top-[-1300px] xl:ml-[40%] lg:ml-[50%] md:ml-[22%] sm:ml-[25%] ml-[28%] text-center " className="type-text"/>
