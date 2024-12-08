@@ -17,7 +17,7 @@ className={`lg:ml-[85%] ml-[50%] mt-[-40px]
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]  `}
     >
     <div className=" absolute rounded-full bg-red-600 via-red-800 h-4 w-4 top-[10px] left-5 "/>
-    <Link href="/Hackfusion2" className="text-white font-medium p-[10px] px-4 cursor-pointer" >
+    <Link href="/Hackfusion2" className="text-white font-medium p-[10px] px-4 cursor-pointer no-underline" >
     HackFusion 2.O
     </Link>
     </div>
@@ -26,7 +26,7 @@ className={`lg:ml-[85%] ml-[50%] mt-[-40px]
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96] `}
     >
 
-    <Link href="/Projects" className="text-white font-medium p-[10px] px-5 cursor-pointer" >
+    <Link href="/Projects" className="text-white font-medium p-[10px] px-5 cursor-pointer no-underline" >
     Projects
     </Link>
     </div>
@@ -35,7 +35,7 @@ className={`lg:ml-[85%] ml-[50%] mt-[-40px]
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
     <Link href="/Events"
-    className="text-white font-medium p-[10px] px-5 cursor-pointer"
+    className="text-white font-medium p-[10px] px-5 cursor-pointer no-underline"
     >
     Events
     </Link></div>
@@ -44,7 +44,7 @@ className={`lg:ml-[85%] ml-[50%] mt-[-40px]
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
     <Link href="/AboutUs"
-    className="text-white font-medium p-[10px] px-5 cursor-pointer"
+    className="text-white font-medium p-[10px] px-5 cursor-pointer no-underline"
     >
     AboutUs
     </Link>
@@ -54,7 +54,7 @@ className={`lg:ml-[85%] ml-[50%] mt-[-40px]
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
     >
     <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=swag@sggs.ac.in&su=Contact%20Us"
-    className="text-white font-medium p-[10px] px-5 cursor-pointer"
+    className="text-white font-medium p-[10px] px-5 cursor-pointer no-underline"
     >
     ContactUs
     </Link>
