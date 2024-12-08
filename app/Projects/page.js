@@ -9,7 +9,7 @@ import '../../styles/globals.css';
 import "./Projects.css"
 const Projects = () => {
   return (
-    <section className=" overflow-scroll" id="project-section">
+    <section className=" overflow-scroll overflow-x-hidden" id="project-section">
       <div className="relative h-[2500px]">
         <motion.div  className="relative h-[1800px] w-[100%] top-0 opacity-1">
     

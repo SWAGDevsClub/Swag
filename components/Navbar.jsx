@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import styles from "../styles";
-import { navVariants } from "../utils/motion";
 import { useState } from "react";
 import Model from "./Model";
 import Link from "next/link";
@@ -30,7 +29,7 @@ const Navbar = () => {
   gap-8`}>
 
           <img
-            src="https://www.swag.org.in/sggs.svg"
+            src="/sggs.svg"
             alt="search"
             className=" sm:w-[75px] w-[60px] sm:h-[75px] h-[60px] object-contain hover:cursor-pointer fill-white shadow"
           />
@@ -105,7 +104,7 @@ const Navbar = () => {
             </div>
           </motion.div>
           <img
-            src="https://www.swag.org.in/menu.svg"
+            src="/menu.svg"
             alt="menu"
             className="sm:w-[40px] w-[30px] sm:h-[40px] h-[30px] object-contain hover:cursor-pointer mt-[20px] lg:hidden"
             onClick={() => setModelOpen(!modelOpen)}

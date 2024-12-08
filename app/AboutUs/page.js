@@ -134,7 +134,7 @@ const AboutUs = () => {
                 className="h-[350px] w-[300px] m-2 rounded-md drop-shadow-lg  object-fit-contain"
               />
               <span className="font-bold text-white my-2 underline self-center">
-               Krishna Jadahav              </span>
+               Krishna Jadhav</span>
               <br />
               <span className="font-bold mb-3 underline self-center text-secondary-white">
                 Web Coordinator
