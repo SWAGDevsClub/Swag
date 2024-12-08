@@ -59,7 +59,7 @@ const Navbar = () => {
             <div className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}>
               <Link href="/Hackfusion2"
-                className="text-green-500 font-medium p-[8px] px-5 cursor-pointer"
+                className="text-green-500 font-medium p-[8px] px-5 cursor-pointer no-underline"
               >
                 HackFusion2.O
               </Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
               className={`${styles.flexCenter}  w-[100%] h-[40px] p-[0px] ml-2
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96] `}
             >
-              <Link href="/Projects" className="text-white font-medium p-[10px] px-5 cursor-pointer">
+              <Link href="/Projects" className="text-white font-medium p-[10px] px-5 cursor-pointer no-underline">
                 Projects
               </Link>
             </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
             >
               <Link href="/Events"
-                className="text-white font-medium p-[10px] px-5 cursor-pointer"
+                className="text-white font-medium p-[10px] px-5 cursor-pointer no-underline"
               >
                 Events
               </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
             >
               <Link href="/AboutUs"
-                className="text-white font-medium p-[10px] px-5 cursor-pointer"
+                className="text-white font-medium p-[10px] px-5 cursor-pointer no-underline"
               >
                 AboutUs
               </Link>
@@ -98,7 +98,7 @@ const Navbar = () => {
    rounded-[10px] bg-[#323f5d] hover:bg-[#586b96]`}
             >
               <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=swag@sggs.ac.in&su=Contact%20Us"
-                className="text-white font-medium p-[10px] px-5 cursor-pointer"
+                className="text-white font-medium p-[10px] px-5 cursor-pointer no-underline"
               >
                 ContactUs
               </Link>
