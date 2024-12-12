@@ -3,6 +3,7 @@ import { TypingText, TitleText } from "../../components";
 import Link from "next/link";
 import "../../styles/globals.css";
 import "./Event.css"
+// import "../../public/index.html"
 const Events = () => {
   return (
     <>
